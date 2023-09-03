@@ -1,0 +1,29 @@
+{
+  "name": "rbac-js",
+  "description": "A JS package to manage role-based access control (RBAC) that supports TypeScript and JSON serialization",
+  "author": "Bruno Quaresma",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/rbac-js.umd.cjs",
+  "module": "./dist/rbac-js.js",
+  "keywords": ["rbac", "typescript", "role", "permission", "access control"],
+  "exports": {
+    ".": {
+      "import": "./dist/rbac-js.js",
+      "require": "./dist/rbac-js.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.9",
+    "typescript": "5.0.2",
+    "vite": "4.4.5",
+    "vite-plugin-dts": "3.5.3",
+    "vitest": "0.34.3"
+  }
+}
