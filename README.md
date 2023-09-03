@@ -5,6 +5,11 @@ A simple and easy RBAC library for JS.
 - Support TypeScript
 
 ## Usage
+
+```bash
+npm i @quaresma/rbac
+```
+
 ```ts
 // Initialize RBAC with the roles, resources and permissions
 const userRole = {
