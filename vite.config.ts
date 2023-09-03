@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/rbac.ts"),
-      name: "rbac-js",
-      fileName: "rbac-js",
+      name: "@quaresma/rbac",
+      fileName: "@quaresma/rbac",
     },
   },
   plugins: [

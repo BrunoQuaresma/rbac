@@ -1,26 +1,26 @@
 {
-  "name": "rbac-js",
+  "name": "@quaresma/rbac",
   "description": "A JS package to manage role-based access control (RBAC) that supports TypeScript and JSON serialization",
   "author": "Bruno Quaresma",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/BrunoQuaresma/rbac-js",
+  "homepage": "https://github.com/BrunoQuaresma/rbac",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BrunoQuaresma/rbac-js"
+    "url": "https://github.com/BrunoQuaresma/rbac"
   },
   "bugs": {
-    "url": "https://github.com/BrunoQuaresma/rbac-js/issues"
+    "url": "https://github.com/BrunoQuaresma/rbac/issues"
   },
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/rbac-js.umd.cjs",
-  "module": "./dist/rbac-js.js",
+  "main": "./dist/@quaresma/rbac.umd.cjs",
+  "module": "./dist/@quaresma/rbac.js",
   "keywords": ["rbac", "typescript", "role", "permission", "access control"],
   "exports": {
     ".": {
-      "import": "./dist/rbac-js.js",
-      "require": "./dist/rbac-js.umd.cjs"
+      "import": "./dist/@quaresma/rbac.js",
+      "require": "./dist/@quaresma/rbac.umd.cjs"
     }
   },
   "scripts": {
