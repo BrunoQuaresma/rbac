@@ -14,7 +14,7 @@ const userRole = {
 const adminRole = {
   id: "admin",
   permissions: [{
-    actions: "delete",
+    action: "delete",
     resource: "users"
   }]
 }
