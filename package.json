@@ -4,6 +4,14 @@
   "author": "Bruno Quaresma",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://github.com/BrunoQuaresma/rbac-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrunoQuaresma/rbac-js"
+  },
+  "bugs": {
+    "url": "https://github.com/BrunoQuaresma/rbac-js/issues"
+  },
   "type": "module",
   "files": ["dist"],
   "main": "./dist/rbac-js.umd.cjs",
